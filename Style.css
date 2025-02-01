@@ -10,16 +10,37 @@ body * {
 }
 
 body {
-    background:#6B93C7 
+    background:#E9E8EE; 
+}
+
+#FIRST_BOX { 
+    border: 1PX ;
+    height: 900px;
+    text-align:center;
 }
 
 h1 {
-    color:ghostwhite;
+    display: flex;
+    color:#E9E8EE; 
+    justify-content: center;
+    align-items: center;
+    margin:0;
 }
 
-#FIRST_BOX { border: 1PX ;
-    height: 900px;
-    text-align:center;
+#tittle img {
+    width: 100px;
+    height: 100px;
+transform: translateX(55px) ;
+}
+
+#tittle { 
+    border: 1px ; 
+    width:100%;
+    text-align: center;
+    padding: 24px;
+    margin:auto;
+    background-color:#415EA2;
+   
 }
 
 #SECOND_BOX {
@@ -29,23 +50,10 @@ h1 {
     margin: auto; 
     text-align: center; 
     margin-top: 30px;
-    background-color:#4678B9;
+    background-color:#415EA2;
     border-radius: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-/*#THIRD_BOX { border: 1px solid red;*/
-
-
-#tittle { 
-    border: 1px ; 
-    width:600px;
-    text-align: center;
-    padding: 24px;
-    margin:auto;
-    background-color:#4678B9;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;    
 }
 
 ul {
@@ -109,17 +117,18 @@ ul li input:hover {
     border-color: azure;
     margin-top: 10px;
     outline: none;
+    
 }
 ul li label { 
-    font-weight: 700;
-    color: ghostwhite;
+    color: white;
+    font-weight: 600;
 }
 
 #button {
     width: 130px;
     height: 50px;
-    margin-top: 40px;
-    background-color: #98C9A3;
+    margin-top: 60px;
+    background-color: #63BFBE;
     border: 0px;
     border-radius: 30px;
 }
