@@ -1,0 +1,129 @@
+
+* {
+    margin: 0 ;
+    padding: 0 ;    
+    box-sizing: border-box  ;
+}
+
+body * {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background:#6B93C7 
+}
+
+h1 {
+    color:ghostwhite;
+}
+
+#FIRST_BOX { border: 1PX ;
+    height: 900px;
+    text-align:center;
+}
+
+#SECOND_BOX {
+    border: 1PX  ;
+    height: 800px;
+    width: 600px;
+    margin: auto; 
+    text-align: center; 
+    margin-top: 30px;
+    background-color:#4678B9;
+    border-radius: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*#THIRD_BOX { border: 1px solid red;*/
+
+
+#tittle { 
+    border: 1px ; 
+    width:600px;
+    text-align: center;
+    padding: 24px;
+    margin:auto;
+    background-color:#4678B9;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;    
+}
+
+ul {
+    list-style: none ;
+    text-align: left; 
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    resize: none;
+}
+
+ul li input {
+    height:25px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px ;
+    align-items: center;
+    font-weight: 500;
+    transition: background 0.5s;   
+    padding: 16px 24px;
+    background-color:#F0F7EE;  
+    border-color: #F0F7EE;;
+    outline: none;
+    margin-top: 10px;
+}
+
+ul li input:hover {
+    background-color:#F0E7D8;
+    /* border: rgba(2, 2, 2, 0.3);  */
+    -webkit-backdrop-filter: blur(4px);
+    box-shadow: 0 0 5px rgba(246, 252, 222, 0.5); /* Sombra ao focar */
+}
+
+#solicitacao {
+    height:100px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px ;
+    align-items: center;
+    font-weight: 500;
+    transition: background 0.5s;   
+    padding: 16px 24px;
+    background-color:#F0F7EE;  
+    border-color: #F0F7EE;
+    resize: none;
+    margin-top: 10px;
+    outline: none;   
+}
+
+#urgencia {  
+    height: 55px;
+    width: 300px;
+    text-align: left;
+    border-radius: 5px ;
+    align-items: center;
+    font-weight: 500;
+    transition: background 0.5s;   
+    padding: 16px 24px;
+    background-color:#F0F7EE;  
+    border-color: azure;
+    margin-top: 10px;
+    outline: none;
+}
+ul li label { 
+    font-weight: 700;
+    color: ghostwhite;
+}
+
+#button {
+    width: 130px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: #98C9A3;
+    border: 0px;
+    border-radius: 30px;
+}
+
+#button p {
+font-weight:600;
+}

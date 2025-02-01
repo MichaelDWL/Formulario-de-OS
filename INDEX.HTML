@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, 
+    initial-scale=1.0">
+    <title> Solic Manutenção Predial</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+
+<body>  
+ 
+<div id="FIRST_BOX">
+    
+    <div id="tittle"> <H1>Manutenção Predial</H1> </div>
+        
+    <div id="SECOND_BOX"> 
+            <!-- FUNÇÃO PARA LINKAR BOTÃO/WPP/FORMULARIO -->
+        <form action="#" method="get" onsubmit="enviarWpp()">
+            <!-- MENU -->
+            <ul class="tab">
+                <li>
+                    <label for="nome">Solicitante:</label> <br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+                </li>    
+           
+                <li> 
+                    <label for="setor">Setor:</label> <br>
+                    <input type="text" id="setor" name="setor" required><br><br> 
+                </li> 
+           
+                <li>
+                    <label for="ramal">Ramal:</label> <br>
+                    <input type="text" id="ramal" name="ramal" required><br><br>    
+                </li>
+           
+                <LI>
+                    <label for="local">Local:</label> <br>
+                    <input type="text" id="local" name="local" required><br><br>
+                </LI>
+        
+                <li>
+                    <label for="solicitacao">Solicitação</label> <br>
+                    <textarea name="solicitação" id="solicitacao" required></textarea> <br><br>
+                </li> 
+
+                <li>
+                    <label for="urgencia">Urgência</label> <br>
+                    <select name="urgencia" id="urgencia">
+                        <option value="alta">Alta</option>
+                        <option value="media">Media</option>
+                        <option value="baixa">Baixa</option>
+                    </select>
+                </li>
+
+            </ul>
+
+            <button id=button type="submit">
+                <span>ENVIAR</span>
+            </button>
+        
+    </form>
+
+    </div>
+</div>
+    
+<script src="./script.js"> </script>
+</body>
+</html>
