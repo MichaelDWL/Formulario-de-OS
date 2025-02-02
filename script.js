@@ -3,6 +3,7 @@ function enviarWpp() {
     var setor = document.getElementById("setor").value;
     var ramal = document.getElementById("ramal").value;
     var local = document.getElementById("local").value;
+    var P_referencia = document.getElementById("P_referencia").value;
     var solicitacao = document.getElementById("solicitacao").value;
     var urgencia = document.getElementById("urgencia").value;
     // var texto = "Nome: ${nome}\nSetor:${setor}\nRamal:${ramal}\nLocal:${local}\nSolicitacao:${solicitacao}\nUrgecia:${urgencia}";
@@ -15,6 +16,7 @@ function enviarWpp() {
 + "*Setor*: " + setor + "%0a"
 + "*Ramal*: " + ramal + "%0a"
 + "*Local*: " + local + "%0a"
++ "*Ponto de referencia*: " + P_referencia + "%0a"
 + "*Solicitação*: " + solicitacao + "%0a"
 + "*Urgência*: " + urgencia; 
 

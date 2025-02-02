@@ -25,6 +25,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin:0;
+    font-size: 45px;
 }
 
 #tittle img {
@@ -45,7 +46,7 @@ transform: translateX(55px) ;
 
 #SECOND_BOX {
     border: 1PX  ;
-    height: 800px;
+    height: 910px;
     width: 600px;
     margin: auto; 
     text-align: center; 
@@ -103,6 +104,21 @@ ul li input:hover {
     margin-top: 10px;
     outline: none;   
 }
+#P_referencia {
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px ;
+    align-items: center;
+    font-weight: 500;
+    transition: background 0.5s;   
+    padding: 16px 24px;
+    background-color:#F0F7EE;  
+    border-color: #F0F7EE;
+    resize: none;
+    margin-top: 10px;
+    outline: none;   
+}
 
 #urgencia {  
     height: 55px;
@@ -117,22 +133,23 @@ ul li input:hover {
     border-color: azure;
     margin-top: 10px;
     outline: none;
-    
+    font-size: 15px;
 }
 ul li label { 
     color: white;
     font-weight: 600;
+    font-size: 20px;
 }
 
 #button {
     width: 130px;
     height: 50px;
-    margin-top: 60px;
+    margin-top: 30px;
     background-color: #63BFBE;
     border: 0px;
     border-radius: 30px;
 }
 
-#button p {
+#button span {font-size: 15px;
 font-weight:600;
 }
