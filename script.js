@@ -12,7 +12,7 @@ function enviarWpp() {
 
 + "*Solicitação*" + "%0a" 
 + "%0a"
-+ "*Solicitante*: " + nome + "%0a"
++ "*👤-Solicitante*: " + nome + "%0a"
 + "*Setor*: " + setor + "%0a"
 + "*Ramal*: " + ramal + "%0a"
 + "*Local*: " + local + "%0a"

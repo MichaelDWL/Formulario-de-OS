@@ -15,7 +15,7 @@ body {
 
 #FIRST_BOX { 
     border: 1PX ;
-    height: 900px;
+    height: 1300px;
     text-align:center;
 }
 
@@ -152,4 +152,18 @@ ul li label {
 
 #button span {font-size: 15px;
 font-weight:600;
+}
+
+footer {
+    padding: 24px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color:#415EA2
+  }
+  
+  footer a {
+color: #415EA2;
+text-decoration: none;
 }
