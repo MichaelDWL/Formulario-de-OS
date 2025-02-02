@@ -12,12 +12,12 @@ function enviarWpp() {
 
 + "*Solicitação*" + "%0a" 
 + "%0a"
-+ "*👤-Solicitante*: " + nome + "%0a"
-+ "*Setor*: " + setor + "%0a"
-+ "*Ramal*: " + ramal + "%0a"
-+ "*Local*: " + local + "%0a"
-+ "*Ponto de referencia*: " + P_referencia + "%0a"
-+ "*Solicitação*: " + solicitacao + "%0a"
++ "*Solicitante*: " + nome + "%0a" + "%0a"
++ "*Setor*: " + setor + "%0a" + "%0a"
++ "*Ramal*: " + ramal + "%0a" + "%0a"
++ "*Local*: " + local + "%0a" + "%0a"
++ "*Ponto de referencia*: " + P_referencia + "%0a" + "%0a"
++ "*Solicitação*: " + solicitacao + "%0a" + "%0a"
 + "*Urgência*: " + urgencia; 
 
 window.open(url, '_blank').focus();
