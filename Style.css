@@ -15,7 +15,6 @@ body {
 
 #FIRST_BOX { 
     border: 1PX;
-    padding: 0 200px;
     display: flex;
     text-align:center;
     align-items: center;
@@ -53,7 +52,7 @@ h1 {
 #SECOND_BOX {
     border: 1PX;
     width:600px;
-    margin: auto; 
+    margin-bottom: 0;
     text-align: center; 
     margin-top: 30px;
     background-color:#415EA2;
@@ -150,7 +149,6 @@ ul li input:hover {
     margin-top: 10px;
     outline: none;
     font-size: 15px;
-
 }
 
 ul li label { 
@@ -182,16 +180,46 @@ justify-content: center;
 }
 
 footer {
-    padding: 24px 0;
     text-align: center;
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
     color:#415EA2;
-    margin-top: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   
   footer a {
 color: #415EA2;
 text-decoration: none;
+}
+@media (max-width:480px) { 
+    #FIRST_BOX{ 
+    padding:0px 16px; 
+}
+
+h1 {
+     font-size:28px;
+     gap: 25px;
+}
+
+#tittle img {
+    width: 60px;
+    height: 60px;
+}
+#input_li { 
+    margin:0;
+}
+
+#SECOND_BOX {
+    width:400px;
+}
+
+#input_li {
+    margin: 0px;
+}
+ul li input {
+    width: 400px;
+}
+
 }
