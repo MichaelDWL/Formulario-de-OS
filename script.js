@@ -8,7 +8,7 @@ function enviarWpp() {
     var urgencia = document.getElementById("urgencia").value;
     // var texto = "Nome: ${nome}\nSetor:${setor}\nRamal:${ramal}\nLocal:${local}\nSolicitacao:${solicitacao}\nUrgecia:${urgencia}";
     // var numeroWhatsapp = "5531992214044";
-    var url = "https://wa.me/553195321255?text=" //ADICIONE SEU N°
+    var url = "https://wa.me/553194370758?text=" //ADICIONE SEU N°
 
 + "*Solicitação*" + "%0a" 
 + "%0a"
