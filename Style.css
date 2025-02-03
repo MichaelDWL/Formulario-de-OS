@@ -14,7 +14,6 @@ body {
 }
 
 #FIRST_BOX { 
-    width: 100%;
     border: 1PX;
     padding: 0 200px;
     display: flex;
