@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
 <head>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,19 +14,28 @@
     initial-scale=1.0">
     <title> Solic Manutenção Predial</title>
     <link rel="stylesheet" href="./Style.css">
+
 </head>
 
 <body>  
 
-    <div id="tittle"> <h1>O.S Manutenção<img src="./assets/icon-job.png" alt="Icon"></h1>  </div>
+    <div id="tittle"> 
+        
+        <h1>O.S Manutenção<img src="./assets/icon-job.png" alt="Icon"></h1>  
+    
+    </div>
     
 <div id="FIRST_BOX">
     
         
-    <div id="SECOND_BOX"> 
+    <div id="SECOND_BOX">
+
             <!-- FUNÇÃO PARA LINKAR BOTÃO/WPP/FORMULARIO -->
+        
         <form action="#" method="get" onsubmit="enviarWpp()">
-            <!-- MENU -->
+                   
+                    <!-- MENU -->
+                    
             <ul class="tab">
 
                 <div id="input_li">
@@ -33,55 +43,87 @@
                 <li>
                     <label for="nome">Solicitante:</label> <br>
                     <input type="text" id="nome" name="nome" required><br><br>
-                </li>    
-           
+                </li>   
+
+                    <!-- campo de Setor -->
+
                 <li> 
+                    
                     <label for="setor">Setor:</label> <br>
                     <input type="text" id="setor" name="setor" required><br><br> 
-                </li> 
-           
+                
+                </li>
+
+                    <!-- campo de Ramal -->
+                
                 <li>
+
                     <label for="ramal">Ramal:</label> <br>
                     <input type="text" id="ramal" name="ramal" required><br><br>    
+                
                 </li>
-           
+                
+                    <!-- campo de Local -->
+
                 <LI>
+
                     <label for="local">Local:</label> <br>
                     <input type="text" id="local" name="local" required><br><br>
+                
                 </LI>
 
+                    <!-- campo de ponto de referenccia -->
+                
                 <li>
+                    
                     <label for="P_referencia">Ponto de referencia</label> <br>
                     <textarea name="P_referencia" id="P_referencia"></textarea><br><br>
+                
                 </li>
-        
+
+                    <!-- campo de Solicitação  -->
+                
                 <li>
+                    
                     <label for="solicitacao">Solicitação</label> <br>
                     <textarea name="solicitação" id="solicitacao" required></textarea> <br><br>
+                
                 </li> 
+                
+                    <!-- campo de prioridade -->
 
                 <li>
+                    
                     <label for="urgencia">Prioridade</label> <br>
                     <select name="urgencia" id="urgencia">
-                        <option value="alta">Alta</option>
-                        <option value="media">Media</option>
+                        <!-- <option value="SELECIONE">SELECIONE</option> -->
                         <option value="baixa">Baixa</option>
+                        <option value="media">Media</option>
+                        <option value="alta">Alta</option>
                     </select>
+                
                 </li>
+                
             </div>
+
             </ul>
-     
+
+                  <!-- Botão -->
             
             <div id="box_button">
                 
                 <button id=button type="submit">
+     
                     ENVIAR
+     
                 </button>
+     
             </div>
             
         </form>
             
-        </div>
+         </div>
+         
     </div>
 
 <footer>

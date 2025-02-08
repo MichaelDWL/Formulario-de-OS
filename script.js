@@ -1,3 +1,4 @@
+    //função para eviar pro wpp
 function enviarWpp() {
     var nome = document.getElementById("nome").value;
     var setor = document.getElementById("setor").value;
@@ -9,6 +10,8 @@ function enviarWpp() {
     // var texto = "Nome: ${nome}\nSetor:${setor}\nRamal:${ramal}\nLocal:${local}\nSolicitacao:${solicitacao}\nUrgecia:${urgencia}";
     // var numeroWhatsapp = "5531992214044";
     var url = "https://wa.me/553188582225?text=" //ADICIONE SEU N°
+    
+    // estrutura do texto
 
 + "*Solicitação*" + "%0a" 
 + "%0a"
